@@ -6,8 +6,8 @@ import Home from './components/Home';
 const AppRouter = () => {
   return (
       <Routes>
-        <Route path="/Loopifyx" element={<Home />} />
-        <Route path="/Loopifyx/pattern/:id" element={<PatternPage />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/pattern/:id" element={<PatternPage />} />
       </Routes>
   );
 };
