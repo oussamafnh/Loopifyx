@@ -24,9 +24,9 @@ Check out the live demo of LOOPIFYX [here](https://oussamafnh.github.io/Loopifyx
 ## Installation
 
 1. Clone the repository:
-
+   ```bash
    $ git clone https://github.com/oussamafnh/Loopifyx.git
-
+   ```
 
 2. Navigate to the project directory:
 
