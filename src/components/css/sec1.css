@@ -1,0 +1,75 @@
+@media (min-width: 715px) {
+    .sec1 {
+        height: 94vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .home-title {
+        width: 100vw;
+        height: 94%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .home-title h1 {
+        /* width: 100%; */
+        font-size: 13vh;
+        text-align: start;
+        font-weight: bolder;
+        text-transform: uppercase;
+        background-image: url(https://res.cloudinary.com/dhdjakjos/image/upload/v1703179939/Untitled_14__page-0001_b3qcd7.jpg);
+        background-attachment: fixed;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+
+    .sec1 svg {
+        height: 6vh;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 715px) {
+    .sec1 {
+        height: 94vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .home-title {
+        width: 100vw;
+        height: 94%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .home-title h1 {
+        width: 80%;
+        text-align: center;
+        font-size: 8vh;
+        font-weight: bolder;
+        text-transform: uppercase;
+        background-image: url(https://res.cloudinary.com/dhdjakjos/image/upload/v1703179939/Untitled_14__page-0001_b3qcd7.jpg);
+        background-attachment: fixed;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .sec1 svg {
+        height: 6vh;
+        justify-content: center;
+    }
+}

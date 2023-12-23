@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100321/img1_ktrlsk.jpg",
+        "title": "Square ",
+        "code": "const n = 5;\nlet str = \"\";\nfor(let i = 1; i <= n; i++) {\n\n    for(let j = 1; j <= n; j++) { \n        str += \"*\";\n    }\n\n    str += \"\\n\"; \n}"
+    },
+    {
+        "id": 2,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100321/img2_eapg4z.jpg",
+        "title": "Hollow Square",
+        "code": "const n = 5; \n let str = ''; \n for (let i = 1; i <= n; i++) { \n   for (let j = 1; j <= n; j++) { \n     if (i === 1 || i === n || j === 1 || j === n) { \n       str += '*'; \n     } else { \n       str += ' '; \n     } \n   } \n   str += ' \\n '; \n }"
+    },
+    {
+        "id": 3,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100321/img3_lh9c1k.jpg",
+        "title": "Rhombus",
+        "code": "const n = 5; \n let str = ''; \n for (let i = 1; i <= n; i++) { \n   let row = ''; \n   for (let j = 1; j <= n - i; j++) { \n     row += ' '; \n   } \n   for (let j = 1; j <= n; j++) { \n     row += '*'; \n   } \n   str += row + ' \\n '; \n }"
+    },
+    {
+        "id": 4,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100322/img4_qpjhra.jpg",
+        "title": "Hollow Rhombus",
+        "code": "const n = 5; \n let str = ''; \n for (let i = 1; i <= n; i++) { \n   let row = ''; \n   for (let j = 1; j <= n - i; j++) { \n     row += ' '; \n   } \n   for (let j = 1; j <= n; j++) { \n     if (j === 1 || j === n || i === 1 || i === n) { \n       row += '*'; \n     } else { \n       row += ' '; \n     } \n   } \n   str += row + ' \\n '; \n }"
+    },
+    {
+        "id": 5,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100323/img5_vpqijm.jpg",
+        "title": "Mirrored Rhombus",
+        "code": "const n = 5; \n let str = ''; \n for (let i = n; i >= 1; i--) { \n   let row = ''; \n   for (let j = 1; j <= n - i; j++) { \n     row += ' '; \n   } \n   for (let j = 1; j <= n; j++) { \n     row += '*'; \n   } \n   str += row + ' \\n '; \n } \n console.log(str);"
+    },
+    {
+        "id": 6,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100323/img6_fgvbhk.jpg",
+        "title": "Mirrored Hollow Rhombus",
+        "code": "const n = 5; \n let str = ''; \n for (let i = 1; i <= n; i++) { \n   let row = ''; \n   for (let j = 1; j < i; j++) { \n     row += ' '; \n   } \n   for (let j = 1; j <= n; j++) { \n     if (j === 1 || j === n || i === 1 || i === n) { \n       row += '*'; \n     } else { \n       row += ' '; \n     } \n   } \n   str += row + ' \\n '; \n } \n console.log(str);"
+    },
+    {
+        "id": 7,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100323/img7_qlwhz0.jpg",
+        "title": "Left Triangle",
+        "code": "const n = 5; \n let str = ''; \n for (let i = 1; i <= n; i++) { \n   for (let j = 1; j <= i; j++) { \n     str += '* '; \n   } \n   str += '\\n'; \n } \n console.log(str);"
+    },
+    {
+        "id": 8,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100322/img8_pmc39x.jpg",
+        "title": "Hollow Left Triangle",
+        "code": "const n = 5; \n let str = ''; \n for (let i = 1; i <= n; i++) { \n   for (let j = 1; j <= i; j++) { \n     if (j === 1 || j === i || i === n) { \n       str += '* '; \n     } else { \n       str += '  '; \n     } \n   } \n   str += '\\n'; \n } \n console.log(str);"
+    },
+    {
+        "id": 9,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100322/img9_m2aaan.jpg",
+        "title": "Right Triangle",
+        "code": "const n = 5; \n let str = ''; \n for (let i = 1; i <= n; i++) { \n   for (let j = 1; j <= n; j++) { \n     if (j <= n - i) { \n       str += '  '; \n     } else { \n       str += '* '; \n     } \n   } \n   str += '\\n'; \n } \n console.log(str);"
+    },
+    {
+        "id": 10,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100323/img12_wjmcen.jpg",
+        "title": "Hollow Right Triangle",
+        "code": "const n = 5; \n let str = ''; \n for (let i = 1; i <= n; i++) { \n   for (let j = 1; j <= n - i; j++) { \n     str += '  '; \n   } \n   for (let j = 1; j <= i; j++) { \n     if (j === 1 || j === i || i === n) { \n       str += '* '; \n     } else { \n       str += '  '; \n     } \n   } \n   str += '\\n'; \n } \n console.log(str);"
+    },
+    {
+        "id": 11,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100321/img10_ag2csu.jpg",
+        "title": "Inverted Left Triangle",
+        "code": "const n = 5; \n let str = ''; \n for (let i = n; i >= 1; i--) { \n   for (let j = 1; j <= i; j++) { \n     str += '* '; \n   } \n   str += '\\n'; \n } \n console.log(str);"
+    },
+    {
+        "id": 12,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100321/img11_g1mfts.jpg",
+        "title": "Hollow Inverted Left Triangle",
+        "code": "const n = 5; \nlet str = ''; \nfor (let i = n; i >= 1; i--) { \n  let row = ''; \n  for (let j = 1; j <= i; j++) { \n    if (j === 1 || j === i || i === n) { \n      row += '* '; \n    } else { \n      row += '  '; \n    } \n  } \n  str += row + '\\n'; \n} \nconsole.log(str);"
+    },
+    {
+        "id": 13,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100324/img13_gzi3ti.jpg",
+        "title": "Inverted Right Triangle",
+        "code": "const n = 5; \nlet str = ''; \nfor (let i = 1; i <= n; i++) { \n  for (let j = 1; j <= n; j++) { \n    if (j <= i - 1) { \n      str += '  '; \n    } else { \n      str += '* '; \n    } \n  } \n  str += '\\n'; \n} \nconsole.log(str);"
+    },
+    {
+        "id": 14,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100325/img14_qlx4xf.jpg",
+        "title": "Hollow Inverted Right Triangle",
+        "code": "const n = 5; \nlet str = ''; \nfor (let i = n; i >= 1; i--) { \n  let row = ''; \n  for (let j = 1; j <= n - i; j++) { \n    row += '  '; \n  } \n  for (let j = 1; j <= i; j++) { \n    if (j === 1 || j === i || i === n) { \n      row += '* '; \n    } else { \n      row += '  '; \n    } \n  } \n  str += row + '\\n'; \n} \nconsole.log(str);"
+    },
+    {
+        "id": 15,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100324/img15_xxgovb.jpg",
+        "title": "Pyramid ",
+        "code": "const n = 5; \nlet str = ''; \nfor (let i = 1; i <= n; i++) { \n  let row = ''; \n  for (let j = 1; j <= n - i; j++) { \n    row += ' '; \n  } \n  for (let j = 1; j <= 2 * i - 1; j++) { \n    row += '*'; \n  } \n  str += row + '\\n'; \n} \nconsole.log(str);"
+    },
+    {
+        "id": 16,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100326/img23_alcq0f.jpg",
+        "title": "Hollow Pyramid",
+        "code": "const n = 5; \nlet str = ''; \nfor (let i = 1; i <= n; i++) { \n  let row = ''; \n  for (let j = 1; j <= n - i; j++) { \n    row += ' '; \n  } \n  for (let j = 1; j <= 2 * i - 1; j++) { \n    if (j === 1 || j === 2 * i - 1 || i === n) { \n      row += '*'; \n    } else { \n      row += ' '; \n    } \n  } \n  str += row + '\\n'; \n} \nconsole.log(str);"
+    },
+    {
+        "id": 17,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100325/img17_rp0tzb.jpg",
+        "title": "Inverted Pyramid",
+        "code": "const n = 5; \nlet str = ''; \nfor (let i = n; i >= 1; i--) { \n  let row = ''; \n  for (let j = 1; j <= n - i; j++) { \n    row += ' '; \n  } \n  for (let j = 1; j <= 2 * i - 1; j++) { \n    row += '*'; \n  } \n  str += row + '\\n'; \n} \nconsole.log(str);"
+    },
+    {
+        "id": 18,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100324/img16_gef9l2.jpg",
+        "title": "Inverted Hollow Pyramid",
+        "code": "const n = 5; \nlet str = ''; \nfor (let i = n; i >= 1; i--) { \n  let row = ''; \n  for (let j = 1; j <= n - i; j++) { \n    row += ' '; \n  } \n  for (let j = 1; j <= 2 * i - 1; j++) { \n    if (j === 1 || j === 2 * i - 1 || i === n) { \n      row += '*'; \n    } else { \n      row += ' '; \n    } \n  } \n  str += row + '\\n'; \n} \nconsole.log(str);"
+    },
+    {
+        "id": 19,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100325/img18_odvkd5.jpg",
+        "title": "Half Diamond (Right Pascal)",
+        "code": "const n = 5; \nlet str = ''; \nfor (let i = n; i >= 1; i--) { \n  let row = ''; \n  for (let j = 1; j <= n - i; j++) { \n    row += ' '; \n  } \n  for (let j = 1; j <= 2 * i - 1; j++) { \n    if (j === 1 || j === 2 * i - 1 || i === n) { \n      row += '*'; \n    } else { \n      row += ' '; \n    } \n  } \n  str += row + '\\n'; \n} \nconsole.log(str);"
+    },
+    {
+        "id": 20,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100325/img19_mugcgf.jpg",
+        "title": "Half Diamond (Left Pascal)",
+        "code": "let n = 5; \nlet str = ''; \n\nfor (let i = 1; i <= n; i++) { \n  for (let j = 0; j < n - i; j++) { \n    str += ' '; \n  } \n  for (let k = 0; k < i; k++) { \n    str += '*'; \n  } \n  str += '\\n'; \n} \n\nfor (let i = 1; i <= n - 1; i++) { \n  for (let j = 0; j < i; j++) { \n    str += ' '; \n  } \n  for (let k = 0; k < n - i; k++) { \n    str += '*'; \n  } \n  str += '\\n'; \n} \n\nconsole.log(str);"
+    },
+    {
+        "id": 21,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100326/img20_l27mku.jpg",
+        "title": "Diamond",
+        "code": "const n = 5; \nlet str = ''; \n\nfor (let i = 1; i <= n; i++) { \n    let row = ''; \n    for (let j = 1; j <= n - i; j++) { \n        row += ' '; \n    } \n    for (let j = 1; j <= 2 * i - 1; j++) { \n        row += '*'; \n    } \n    str += row + '\\n'; \n} \n\nfor (let i = n - 1; i >= 1; i--) { \n    let row = ''; \n    for (let j = 1; j <= n - i; j++) { \n        row += ' '; \n    } \n    for (let j = 1; j <= 2 * i - 1; j++) { \n        row += '*'; \n    } \n    str += row + '\\n'; \n} \n\nconsole.log(str);"
+    },
+    {
+        "id": 22,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100326/img21_dzhwug.jpg",
+        "title": "Hollow Diamond",
+        "code": "const n = 5; \nlet str = ''; \n\nfor (let i = 1; i <= n; i++) { \n    let row = ''; \n    for (let j = 1; j <= n - i; j++) { \n        row += ' '; \n    } \n    for (let j = 1; j <= 2 * i - 1; j++) { \n        if (j === 1 || j === 2 * i - 1) { \n            row += '*'; \n        } else { \n            row += ' '; \n        } \n    } \n    str += row + '\\n'; \n} \n\nfor (let i = n - 1; i >= 1; i--) { \n    let row = ''; \n    for (let j = 1; j <= n - i; j++) { \n        row += ' '; \n    } \n    for (let j = 1; j <= 2 * i - 1; j++) { \n        if (j === 1 || j === 2 * i - 1) { \n            row += '*'; \n        } else { \n            row += ' '; \n        } \n    } \n    str += row + '\\n'; \n} \n\nconsole.log(str);"
+    },
+    {
+        "id": 23,
+        "img_link": "https://res.cloudinary.com/dhdjakjos/image/upload/v1703100326/img22_dlmi3m.jpg",
+        "title": "Hourglass",
+        "code": "const n = 5; \nlet str = ''; \n\nfor (let i = 1; i <= n; i++) { \n    let row = ''; \n    for (let j = 1; j <= 2 * n - 1; j++) { \n        if (j >= i && j <= 2 * n - i) { \n            row += '*'; \n        } else { \n            row += ' '; \n        } \n    } \n    str += row + '\\n'; \n} \n\nfor (let i = n - 1; i >= 1; i--) { \n    let row = ''; \n    for (let j = 1; j <= 2 * n - 1; j++) { \n        if (j >= i && j <= 2 * n - i) { \n            row += '*'; \n        } else { \n            row += ' '; \n        } \n    } \n    str += row + '\\n'; \n} \n\nconsole.log(str);"
+    }
+]
