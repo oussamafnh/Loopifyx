@@ -39,7 +39,6 @@
     }
 
     img {
-        /* text-align: center; */
         width: 30vw;
         margin-left: 8.5vw;
     }
@@ -55,7 +54,7 @@
 
 
 
-    .card {
+    .card-code {
         width: 100%;
         height: 80vh;
         margin: 0 auto;
@@ -63,16 +62,10 @@
         background-image: linear-gradient(#526D82, white);
         border-radius: 8px;
         z-index: 1;
-        /* box-shadow: 0px 10px 10px rgb(73, 70, 92); */
         transition: 0.5s;
         cursor: auto;
         border: none;
     }
-
-    /* .card:hover {
-        transform: translateY(-7px);
-        box-shadow: 0px 10px 10px black;
-    } */
 
     .top {
         display: flex;
@@ -85,6 +78,7 @@
     }
 
     .colors{
+        margin-top: 1vh;
         display: flex;
 
     }
@@ -122,7 +116,6 @@
 
     #title2 {
         color: white;
-        /* padding-left: 50px; */
         font-size: 15px;
     }
 
@@ -146,11 +139,7 @@
     #code:focus {
         outline: none !important;
     }
-
-    /* tooltip settings 👇 */
-
     .copy {
-        /* button */
         --button-bg: #9DB2BF;
         --button-hover-bg: #526D82;
         --button-text-color: #CCCCCC;
@@ -159,28 +148,18 @@
         --button-diameter: 36px;
         --button-outline-width: 1px;
         --button-outline-color: rgb(141, 141, 141);
-        /* tooltip */
         --tooltip-bg: #f4f3f3;
         --toolptip-border-radius: 4px;
         --tooltip-font-family: Menlo, Roboto Mono, monospace;
-        /* 👆 this field should not be empty */
         --tooltip-font-size: 12px;
-        /* 👆 this field should not be empty */
         --tootip-text-color: rgb(50, 50, 50);
         --tooltip-padding-x: 7px;
         --tooltip-padding-y: 7px;
         --tooltip-offset: 8px;
-        /* --tooltip-transition-duration: 0.3s; */
-        /* 👆 if you need a transition, 
-    just remove the comment,
-    but I didn't like the transition :| */
     }
 
     .copy {
-        /* float: right; */
         position: absolute;
-        /* right: 0vw;
-        left: 30vw; */
         box-sizing: border-box;
         width: var(--button-diameter);
         height: var(--button-diameter);
@@ -191,6 +170,8 @@
         cursor: pointer;
         position: relative;
         outline: none;
+        margin-top: 1vh;
+        margin-right: 1vw;
     }
 
     .tooltip {
@@ -277,7 +258,6 @@
 
 @media (max-width: 715px) {
     .patterpage {
-        /* position: fixed; */
         overflow-x: hidden;
         width: 94vw;
         margin-top: 8vh;
@@ -315,7 +295,6 @@
         }
 
         img {
-            /* text-align: center; */
             width: 60vw;
             margin-left: 17vw;
         }
@@ -329,7 +308,7 @@
 .code {
     width: 100%;
 
-    .card {
+    .card-code {
         width: 100%;
         height: 60vh;
     }
@@ -338,11 +317,6 @@
         width: 96%;
         height: 50vh;
         font-size: 2vh;
-    }
-
-    .copy {
-        /* left: 38vw; */
-        /* right: -100vw; */
     }
 
 }

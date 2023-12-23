@@ -1,6 +1,6 @@
 @media (min-width: 715px) {
     .sec1 {
-        height: 94vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -33,13 +33,17 @@
     .sec1 svg {
         height: 6vh;
         justify-content: center;
+        margin-bottom: 2vh;
+    }
+
+    .sec1 svg path:nth-child(2) {
+        animation: upndown 2s infinite;
     }
 }
 
-
 @media (max-width: 715px) {
     .sec1 {
-        height: 94vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -68,8 +72,31 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
+
     .sec1 svg {
         height: 6vh;
         justify-content: center;
+        margin-bottom: 2vh;
+
+    }
+
+    .sec1 svg path:nth-child(2) {
+        animation: upndown 2s infinite;
+    }
+}
+
+
+
+@keyframes upndown {
+    0% {
+        transform: translateY(-0.4vh);
+    }
+
+    50% {
+        transform: translateY(0.4vh);
+    }
+
+    100% {
+        transform: translateY(-0.4vh);
     }
 }

@@ -7,7 +7,6 @@ const Home = () => {
     <div className="Home">
       	<Sec1 />
         <Gallery />
-
     </div>
 
   )
