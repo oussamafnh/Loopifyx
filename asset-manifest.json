@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Loopifyx/static/css/main.b634b21f.css",
-    "main.js": "/Loopifyx/static/js/main.0ba1064f.js",
+    "main.css": "/Loopifyx/static/css/main.8ef04853.css",
+    "main.js": "/Loopifyx/static/js/main.457c670a.js",
     "static/js/787.08d5bd28.chunk.js": "/Loopifyx/static/js/787.08d5bd28.chunk.js",
     "index.html": "/Loopifyx/index.html",
-    "main.b634b21f.css.map": "/Loopifyx/static/css/main.b634b21f.css.map",
-    "main.0ba1064f.js.map": "/Loopifyx/static/js/main.0ba1064f.js.map",
+    "main.8ef04853.css.map": "/Loopifyx/static/css/main.8ef04853.css.map",
+    "main.457c670a.js.map": "/Loopifyx/static/js/main.457c670a.js.map",
     "787.08d5bd28.chunk.js.map": "/Loopifyx/static/js/787.08d5bd28.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b634b21f.css",
-    "static/js/main.0ba1064f.js"
+    "static/css/main.8ef04853.css",
+    "static/js/main.457c670a.js"
   ]
 }
