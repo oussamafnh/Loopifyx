@@ -6,7 +6,7 @@ import Home from './components/Home';
 const AppRouter = () => {
   return (
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="" element={<Home />} />
         <Route path="/pattern/:id" element={<PatternPage />} />
       </Routes>
   );
