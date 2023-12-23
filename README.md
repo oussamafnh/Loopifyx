@@ -29,21 +29,21 @@ Check out the live demo of LOOPIFYX [here](https://oussamafnh.github.io/Loopifyx
    ```
 
 2. Navigate to the project directory:
-
+   ```bash
    $ cd loopifyx
-
+   ```
 
 3. Install dependencies:
-
+   ```bash
    $ npm install
-
+   ```
 
 ## Usage
 
 1. Run the application:
-
+   ```bash
    $ npm start
-
+   ```
 
 2. Open your browser and go to [http://localhost:3000/Loopifyx](http://localhost:3000/Loopifyx) to view the app.
 
