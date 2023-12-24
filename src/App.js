@@ -4,8 +4,6 @@ import Router from './router';
 import { Provider } from 'react-redux';
 import ThemeProvider from './ThemeProvider';
 import store from './store';
-
-
 function App() {
   return (
     <Provider store={store}>
