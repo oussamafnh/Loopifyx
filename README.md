@@ -4,6 +4,7 @@ LOOPIFYX is a web application that provides JavaScript code patterns for creatin
 
 ## Table of Contents
 
+
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
