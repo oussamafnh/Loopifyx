@@ -2,6 +2,9 @@
 
 LOOPIFYX is a web application that provides JavaScript code patterns for creating various star patterns. Explore different JavaScript techniques and algorithms through these code examples.
 
+![image](https://github.com/user-attachments/assets/d9a926cc-a01f-442c-8270-1abd3b9d7828)
+
+
 ## Table of Contents
 
 
